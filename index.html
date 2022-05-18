@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&amp;display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: #f5f7f8;
+      }
+      .email_send_container {
+        background-color: #00234b;
+        height: 250px;
+      }
+      .email_send_container .email_send_model {
+        background-color: white;
+        border: 1px solid #d0d7e0;
+        padding: 20px 20px;
+        border-radius: 5px;
+        margin: 0 auto;
+        max-width: 600px;
+        width: 100%;
+      }
+      .email_send_container .email_send_modal_wrapper {
+        padding-top: 50px;
+        width: 100%;
+      }
+      .email_send_container .email_send_header {
+        color: #142f62;
+        font-size: 24px;
+        font-weight: bold;
+        font-family: 'Lato';
+        text-align: center;
+        margin-top: 10px;
+      }
+
+      .email_send_container .email_send_subHeader {
+        color: #142f62;
+        font-size: 16px;
+        font-weight: 500;
+        font-family: 'Lato';
+        text-align: left;
+        margin-top: 20px;
+      }
+      .email_send_container .email_send_subHeader_description {
+        color: #142f62;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: 'Lato';
+        text-align: left;
+        margin: 10px 0px;
+      }
+      .email_send_container .download_section_report {
+        width: 100%;
+        background-color: #f5f7f8;
+        border: 1px solid #d0d7e0;
+        padding: 10px 10px;
+        text-align: left;
+        margin-bottom: 10px;
+        border-radius: 3px;
+        color: #00234b;
+        font-size: 16px;
+        font-family: 'Lato';
+        font-weight: bold;
+      }
+      .download_report_icon {
+        float: right;
+        cursor: pointer;
+        text-decoration: none;
+        color: #526071;
+      }
+      .email_send_container .warning_section {
+        color: #526071;
+        font-size: 14px;
+        font-family: 'Lato';
+        font-weight: 400;
+      }
+      .warning_section span {
+        font-family: 'Lato';
+        font-weight: bold;
+      }
+      .email_send_container .email_footer_p {
+        font-size: 16px;
+        font-family: 'Lato';
+        font-weight: bold;
+        text-align: left;
+        color: #526071;
+        margin: 10px 0px;
+      }
+      .email_send_container .email_footer {
+        margin-top: 10px;
+        font-size: 16px;
+        font-family: 'Lato';
+        font-weight: 400;
+        padding-bottom: 80px;
+        display: flex;
+        color: #00234b;
+        justify-content: center;
+        align-items: center;
+      }
+      .email_footer_img {
+        width: 30px;
+      }
+      .email_send_container .email_send_p1 {
+        margin-top: 0.8em;
+        text-align: center;
+        font-size: 20px;
+        color: #5e5e5e;
+        font-weight: 600;
+        font-family: 'Lato';
+      }
+      .email_send_container .email_send_p2 {
+        margin-top: 0.8em;
+        text-align: center;
+        font-size: 15px;
+        color: #5e5e5e;
+        font-weight: 600;
+        font-family: 'Lato';
+      }
+      .email_send_container .email_send__btnContainer {
+        margin: 1em auto;
+        padding: 10px;
+        width: fit-content;
+      }
+      th,
+      td {
+        padding: 5px;
+      }
+      @media (max-width: 480px) {
+        .email_send_container {
+          background-color: #00234b;
+          height: 100%;
+        }
+        .email_send_container .email_footer {
+          color: white;
+        }
+        .email_send_container .email_send_model {
+          border-radius: 0px;
+        }
+        .email_send_container .email_send_h1 {
+          font-size: 16px;
+        }
+        .email_send_container .email_send_p2 {
+          font-size: 14px;
+        }
+        .email_send_container .email_send_p1 {
+          font-size: 14px;
+        }
+        .email_send_container .email_send_p1 br {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="email_send_container">
+      <div class="email_send_modal_wrapper">
+        <table class="email_send_model">
+          <tbody>
+            <tr>
+              <th class="email_sendHeader_container">
+                <div class="email_image_container">
+                  <img
+                    src="https://zebra.doctor/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbrand-logo.d661ddae.png&w=256&q=75"
+                    alt="image not found"
+                  />
+                </div>
+                <h2 class="email_send_header">
+                  Manhattan Medical Arts Shared a File
+                </h2>
+                <h3 class="email_send_subHeader">Hi Osama,</h3>
+                <p class="email_send_subHeader_description">
+                  Sharing your covid lab results with you. Please download the
+                  files using the links below:
+                </p>
+              </th>
+            </tr>
+            <tr>
+              <th>
+                <div class="download_section_report">
+                  Covid Lab Report
+                  <a class="download_report_icon" href=""
+                    ><img
+                      width="16px"
+                      src="https://zebra.doctor/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FGroup1474.ade6dd2f.svg&w=64&q=75"
+                      alt="..."
+                  /></a>
+                </div>
+                <div class="download_section_report">
+                  Covid Lab Report
+                  <a class="download_report_icon" href=""
+                    ><img
+                      width="16px"
+                      src="https://zebra.doctor/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FGroup1474.ade6dd2f.svg&w=64&q=75"
+                      alt="..."
+                  /></a>
+                </div>
+              </th>
+            </tr>
+            <tr>
+              <td>
+                <p class="warning_section">
+                  <span>WARNING:</span>
+                  You have received confidential healthcare information.
+                  Wrongful use or disclosure of this information is subject to
+                  penalty under applicable law. If you received this information
+                  in error, you must notify the sender at once and return the
+                  information
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="email_footer_p">Regards,</p>
+                <p class="email_footer_p">Manhattan Medical Arts</p>
+                <p class="email_footer_p">
+                  492 6th Ave, New York, NY 10011, United States
+                </p>
+                <p class="email_footer_p">+1 (646) 454-9000</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="email_footer">
+        Powered by  <img
+          class="email_footer_img"
+          src="https://zebradoctor-patient-public-bucket-development.s3.us-west-2.amazonaws.com/logoo.png"
+          alt="..."
+        />
+         Zebra Doctor
+      </p>
+    </div>
+  </body>
+</html>
